@@ -1,0 +1,43 @@
+.content .title {
+    font-size: 18px;
+    margin: 6% 0;
+    text-align: center;
+}
+
+.content .bg {
+margin:10% 0;
+padding: 8% 0;
+box-shadow: 0px 0px 6px rgb(190, 190, 190);
+border: 1px solid rgb(230, 230, 230);
+}
+
+.content .bg .data {
+    word-wrap: break-word;
+}
+
+.content .bg .data .namecouse {
+    margin: 0 6%;
+}
+
+.content .bg .data p {
+    margin: 1%  6%;
+    font-weight: 900;
+    font-size: 18px;
+}
+.content .bg .data .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.content .bg .data .btn .date {
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    background: #84b85a;
+    box-shadow: 0 0 2px rgb(189, 189, 189);
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+    margin: 15px 0;
+}

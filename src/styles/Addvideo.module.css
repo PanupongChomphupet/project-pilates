@@ -1,0 +1,32 @@
+.bg .title{
+    margin: 6% 0;
+    text-align: center;
+    font-size: 18px;
+}
+.bg .content {
+    margin: 0 5%;
+}
+.bg .content .text {
+    font-weight: 900;
+    font-size: 16px;
+}
+.bg .content input[type="file"] {
+    margin: 8% 0;
+}
+.bg .content .btn {
+    display: flex;
+    justify-content: center;
+}
+.bg .content .btn button {
+    border: none;
+    background: #76b65d;
+    color: black;
+    box-shadow: 0px 0px 8px rgb(83, 83, 83);
+    margin: 10%  0;
+    width: 48%;
+    padding: 10px 0;
+    border-radius: 26px;
+    font-size: 16px;
+    font-weight: 900;
+}
+

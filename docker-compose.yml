@@ -1,0 +1,27 @@
+version: '3'
+services:
+        web:
+                container_name: web
+                build: .
+                ports:
+                        - 80:5000
+                        - 443:5001
+                restart: always
+                volumes:
+                        - .:/project
+                links:
+                        - mongo
+                environment:
+                        - GOOGLE_APPLICATION_CREDENTIALS = /project/server/wii-pilates-316414-b8d3b57d750c.json
+                        - COMPOSE_HTTP_TIMEOUT = 7200000
+                command:
+                        sh -c "npm i && npm run build && nodemon --legacy-watch server/index" 
+        mongo:
+                container_name: mongo
+                image: mongo
+                volumes:
+                        - mongodata:/data/db
+                ports:
+                        - 27017:27017
+volumes:
+        mongodata:

@@ -1,0 +1,12 @@
+.video {
+    margin: 0 2%;
+}
+.video h2, p{
+    word-break: break-all;
+    margin: 5%;
+    font-size: 16px;
+}
+.video video {
+    width:320px;
+    height:240px; 
+}

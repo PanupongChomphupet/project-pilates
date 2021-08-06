@@ -1,0 +1,102 @@
+.bg .content {
+    margin: 2% 4%;
+}
+.bg .content .title {
+    margin: 5% 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bg .content .inputs {
+    text-align: center;
+}
+.bg .content .inputs input {
+    margin: 4% 0;
+    width: 80%;
+    padding: 4% 4%;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid #BE9BDD;
+    border-radius: 8px;
+}
+.bg .content .inputs .inputnumber {
+    display: flex;
+    flex-wrap:wrap;
+}
+.bg .content .inputs .inputnumber input {
+    width: 20%;
+    margin: 5% 5.3%;
+}
+.bg .content .inputs .inputnumber label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bg .content .inputs .gender {
+    display: flex;
+    flex-direction: column;
+} 
+.bg .content .inputs .gender h3 {
+    font-size: 16px;
+    text-align: start;
+    margin: 0 6.5%;
+}
+.bg .content .inputs .gender input[type="radio"] {
+    background-color: black;
+    width: 22%;
+}
+.bg .content .inputs .gender label{
+    display: flex;
+    align-items: center;
+    margin: 0 0%;
+    font-size: 16px;
+}
+.bg .content .inputs .gender .gbox1 {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.bg .content .inputs .gender .gbox2 {
+    display: flex;
+    
+}
+.bg .content .inputs .chekpassword {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 12px;
+    margin: 0 6.5%;
+}
+.bg .content .inputs .imgprofile {
+    margin-top: 6%;
+    font-weight: 900;
+}
+
+.bg .content .inputs img {
+    margin-top: 5%;
+}
+.bg .content .inputs input[type="file"] {
+    border: none;
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_register {
+    outline: none;
+    border: none;
+    background-color: #70af3c;
+    color:black;
+    box-shadow: 0px 0px 8px rgb(83, 83, 83);
+    width: 48%;
+    padding: 4% 0;
+    margin: 10% 0%;
+    border-radius: 26px;
+    font-size: 16px;
+}

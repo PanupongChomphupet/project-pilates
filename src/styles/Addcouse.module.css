@@ -1,0 +1,60 @@
+.content .titledas {
+    font-size: 18px;
+    margin: 5% 0;
+    text-align: center;
+}
+.content  .border {
+    border-bottom: 2px solid #00CBFC;
+    margin: 4% 4%;
+}
+.content .paragrap {
+    display: flex;
+    flex-direction: column;
+}
+.content  label,input,textarea{
+    outline: none;
+    margin: 2% 3%;
+}
+.content .paragrap label {
+    font-size: 16px;
+    font-weight: 900;
+}
+.content .paragrap img {
+    margin: 3%;
+    width: 93.5%;
+    height: 60%;
+}
+.content .paragrap input[type ="text"] {
+    padding: 3% 2%;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    font-size: 12px;
+}
+.content .paragrap textarea {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2% 2%;
+    height: 100px;
+}
+
+.content .btn {
+    display: flex;
+    justify-content: center;
+}
+.content .btn_b {
+    outline: none;
+    border: none;
+    background: #76b65d;
+    color: #121212;
+    font-weight: 900;
+    box-shadow: 0px 0px 8px rgb(83, 83, 83);
+    width: 48%;
+    padding: 10px 0 ;
+    margin: 6% 0%;
+    border-radius: 26px;
+    font-size: 16px;
+}
+
+
+

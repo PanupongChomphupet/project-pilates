@@ -1,0 +1,51 @@
+.content{
+    margin-top: 5%;
+}
+.title{
+    margin-left: 4%;
+}
+.border{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid;
+}
+.bill {
+    margin-top: 6%;
+    padding: 8% 0;
+    box-shadow: 0px 0px 6px rgb(190, 190, 190);
+    border: 1px solid rgb(216, 216, 216);
+}
+.bill_title {
+    text-align: center;
+}
+.bill p {
+    margin: 4% 4%;
+}
+.bill p .price {
+    float: right;
+    margin-right: 2%;
+}
+.conlect {
+    margin-top: 20%;
+    text-align: center;
+}
+.conlect h3 {
+    margin: 3% 0;
+}
+.border_conlect{
+    border-bottom-style: dotted;
+    margin: 3% 16%;
+}
+.sumprices {
+    font-weight: 900;
+}
+.btn_conlect {
+    color:yellow;
+    background: #FF0068;
+    margin-top: 8%;
+    width: 32%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}

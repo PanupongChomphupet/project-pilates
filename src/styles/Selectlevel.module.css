@@ -1,0 +1,30 @@
+.bg_level .content{
+    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+}
+.bg_level .content .border {    
+    border: 1px solid yellow;
+    margin: 5% 6%;
+}
+.bg_level .content h2 {
+    margin-left: 5%;
+    font-size: 18px;
+    
+}
+.bg_level .content .level {
+    background: #dbf1fa;
+    box-shadow: 0px 0px 6px #9be3ff;
+    width: 100%;
+    height: 100px;
+    
+}
+.content .a {
+    background-color: #70af3c;
+    color: black;
+    word-break: break-all;
+    font-size: 16px;
+    margin: 1% 0;
+    padding: 34px 5%;
+    text-decoration: none;
+}

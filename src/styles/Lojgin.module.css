@@ -1,0 +1,71 @@
+.login_harder {
+    margin: 15% 0;
+    text-align: center;
+}
+
+.login_harder .login {
+    position:relative;
+    width: 100%;
+    top: 10%;
+}
+.login_harder .login .title {
+    font-size: 22px;
+    padding: 4%;
+}
+.login_harder .login .border_button{
+    border-bottom: 2px solid #003cff;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 5%;
+}
+.login_harder .login .input_login {
+    padding: 6px;
+}
+
+.login_harder .login .input_login input {
+    font-size: 14px;
+    padding: 5% 5%;
+    width: 80%;
+    border: 1.6px solid #BE9BDD;
+    outline: none;
+    border-radius: 25px;
+}
+.login_harder .login .forgot {
+    margin: 0 7%;
+    text-align: end;
+}
+.login_harder .login .forgot .forgotpassword{
+    color: #003cff;
+}
+
+.btn_login {
+    background: #84b85a;
+    box-shadow: 0px 0px 8px rgb(83, 83, 83);
+    margin-top: 5%;
+    width: 85%;
+    padding: 14px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    outline: none;
+}
+.border_button1 {
+    border-bottom: 2px solid #003cff;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.member_login {
+    margin-top: 15%;
+    font-size: 16px;
+}
+
+.register {
+    text-decoration: none;
+    font-size: 16px;
+    color: #003cff;
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wii-pilates-project",
+  "private_key_id": "39a9c1fb1e0dca01e1a549b73c7ca1d2ae61de63",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCW9Ilnm4aq4BND\nPSLK98YX3rhvquBONnMjOVmsIpo6yCryny2/sTHL2M19q4ibS08hfiaG/H1uSHzV\nv16UfHpwSpDhMmwyjotgYsUyL6ZejOG1PuS6m9PcMHDZHBJlWSVDUkWdPoQcekUe\nmzgCGtROvPXkUV63IgPJaYaPnXk6wQ650/ESQaaadUlaOl2Q7dkB25bICDXsN2S8\nF/SKJ6b1geWNNmIF8Kc58+WptWLXcSXm4t6BV///K4JIBWCCdnsmy3mqpyxGlkRA\nbH+bCov9Pjo2/wBvSYfgQneAmQgwIThaEPbw5LVApSAwiv3u3ZRYBy8tMtlciYrV\nf6T0Jz0PAgMBAAECggEABMmbpAAQPNIfekXxmQtTqoUjR1Ndis16SFc0y1tLleqs\nRgabXlWB1Uu6dK5ghkBUsaS9FxHh7oH5B5RqrP3nqjELOEEvokjYDcYEKAvP1HbW\nX7evbGWtyfF1WsVjpfg2UNTGpW6KpRaRo59bnuF380lV6RhVjyxSf2xL2rktU5oo\nXXkLXVn8mlltwUh4JZ10CKEccRAF7TylW0wFNMAbov1RPl6f/jqGEdF5Ls0ktUHg\nDmSlq4R3BoKjDzNAZK/AtRbdEOi198n32kQFBYHC/dFQaebmQ5ExC7P7T/Tg6hxy\nxDvKJVRtpL881mIm/HasQO+E4008u73r4elO7B8gxQKBgQDRTPssdPdYDlWWVheT\nefsueYW4lmWwmTWO+LwW146kMBAvfGLremZ8sCYzI6fDIMRsb5v/U0Fk+rayiIzw\nN/KszXWO1TwH+APDaYZcBeXpzPMqkgnhc6PQkE1okl7jS4yrZzBOYmlXwz16HTKV\nGkd3aEGGo96q+MDwTrpRwL8uNQKBgQC4ou162dgzCj3croIRFZSsH6BvoZjKwfh2\ngF8w7KG1Ofbyo+bwrpQLVdKALTXl3mKpynND6Mp73Am113MRxNyu5kpCTzICER7V\nTWZxPD5/oYGoGNFh7X0eegPWGOFrSIvSJT7VX8r+wPnWCKGWBJn3S84OK5WT8Ugw\nIcBbdif2swKBgFYmubyy6Jz2SYR4K3wo2ZtnqgMw5OqsJb+T4tgEIlKy9faV3KHQ\n4B6y4wZpxsQq2K9JwYx3WJOYH1udmWXHobw/VgRVAUDGdcYZyZRXWSvDkNQVCLwk\nPWm7/CDvHt+wWVa0Qs4A9BuL4eJB4nA9QO2FnHMvQJhfjAteXJMKI6eBAoGBAJvv\nFiu8EcjBbI+VXkn5dO+NYl0FGFqdSS8jqcFTCBtbUgGIhUFd37BXEgmopS13DNKj\nJYgD8gZ7RkQqKoemQE8CNVMdOXnfZa/1x3/4xjvadfs2wpc3EIWNvPGzX6XQxi17\nwT5JwdI3voiSD434YuQlRGhZTOF+VF46Ew/rkULbAoGBAMRY2hM10HRuk4nFdIk5\ny97ynMGJcKqdYtTYPSLR3ZCenk0MWETg+KERhYXnxErtP85qDWa68M4KC4cOCPyq\nZXuuquoZxhYwuGZzwma6d1ck/Kf/Ei05lNPrU6iyhchhC2CGCvR43R/IW4vVyDYK\nmEg9KX5J0rne679V/Utb/PLI\n-----END PRIVATE KEY-----\n",
+  "client_email": "wii-pilates-bucket@wii-pilates-project.iam.gserviceaccount.com",
+  "client_id": "106170401608859276847",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wii-pilates-bucket%40wii-pilates-project.iam.gserviceaccount.com"
+}

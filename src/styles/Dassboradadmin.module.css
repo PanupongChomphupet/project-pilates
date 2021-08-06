@@ -1,0 +1,42 @@
+.bg .couse {
+    margin: 6% 0;
+}
+.bg .couse .img {
+    margin: 2% 6%;
+    height: 150px;
+    width: 88%;
+}
+.bg .adddata {
+    display: flex;
+    justify-content: start;
+    margin: 5%;
+}
+.bg .couse .page {
+    display: flex;
+    margin: 4% 0;
+}
+.bg .couse .page .name{
+    word-wrap:break-word;
+    margin: 0 6%;
+    font-size: 14px;
+    width: 0%;
+    flex: 0.79;
+    
+}
+.bg .couse .page .name .title {
+    font-size: 16px;
+    padding: 1% 2%;
+    
+}
+.bg .couse button {
+    position: relative;
+    font-weight: 900;
+    width: 170%;
+    background: #76b65d;
+    color: #121212;
+    border: none;
+    box-shadow: 1px 2px 4px #BE9BDD;
+    border-radius: 10px; 
+    padding: 5px 0;
+    margin: 8% 0;
+}

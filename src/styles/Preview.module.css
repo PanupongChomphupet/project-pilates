@@ -1,0 +1,11 @@
+.bg .title{
+    font-size: 20px;
+    text-align: center;
+    margin: 10% 0;
+}
+
+.bg .video {
+    display: flex;
+    justify-content: center;
+    margin: 5% 3%;
+}

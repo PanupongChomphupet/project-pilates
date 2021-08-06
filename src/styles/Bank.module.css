@@ -1,0 +1,49 @@
+.bg .content {
+    margin: 5% 3%;
+}
+.bg .content .title {
+    text-align: center;
+    font-size: 18px;
+}
+.bg .content  .border {
+    border-bottom: 2px solid red;
+    margin: 4% 4%;
+}
+
+.bg .content .inputs label {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.bg .content .inputs input {
+    width: 87%;
+    padding: 2% 2%;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bg .content .btn {
+    display: flex;
+    justify-content: center;
+}
+.bg .content .btn button {
+    outline: none;
+    border: none;
+    background: #76b65d;
+    color: #121212;
+    font-weight: 900;
+    box-shadow: 0px 0px 8px rgb(83, 83, 83);
+    width: 48%;
+    padding: 10px 0 ;
+    margin: 6% 0%;
+    border-radius: 26px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+    
