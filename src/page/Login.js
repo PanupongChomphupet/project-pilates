@@ -69,12 +69,13 @@ function Login() {
                     </div>
 
 
-                    <input
+                    {/* <input
                         type="submit"
                         value="เข้าสู่ระบบ"
                         className={styles.btn_login}
                         onClick={sendData}
-                    />
+                    /> */}
+                    <button className = {styles.btn_login} onClick = {sendData}>เข้าสู่ระบบ</button>
                     <div className={styles.border_button1} />
                     <p className={styles.member_login}>ยังไม่เป็นสมาชิก ?<a onClick={() => history.push('/register')} className={styles.register}> สมัครเลย</a></p>
                 </form>
