@@ -47,14 +47,16 @@ function Detail() {
     }, [])
 
     useEffect(() => {
-        axios({
-            method: "post",
-            url: 'http://34.66.210.189/billlevel',
-            headers: { "Content-Type": "application/json" },
-            data: JSON.stringify({ token })
-        }).then(res => {
-            setchecklevel(res.data.Mycouse)
-        })
+        if (token) {
+            axios({
+                method: "post",
+                url: 'http://34.66.210.189/billlevel',
+                headers: { "Content-Type": "application/json" },
+                data: JSON.stringify({ token })
+            }).then(res => {
+                setchecklevel(res.data.Mycouse)
+            })
+        }
     }, [])
 
 
