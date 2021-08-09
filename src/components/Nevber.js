@@ -5,6 +5,7 @@ import { FiMenu } from 'react-icons/fi'
 import { HiUserCircle } from 'react-icons/hi'
 import swal from 'sweetalert'
 import axios from 'axios';
+import { RiContactsBookLine } from 'react-icons/ri';
 
 function Navber(props) {
     const { rights } = props
@@ -58,7 +59,7 @@ function Navber(props) {
 
     function check(value) {
         if (value == "home") {
-            history.push('/home')
+            history.push('/')
         } else if (value == "dasborad") {
             history.push('/dasborad')
         } else if (value == "dasboradadmin") {

@@ -49,7 +49,7 @@ function App() {
 
   function checklogin() {
     const token = localStorage.getItem("token");
-    if (path !== "/login" && path !== "/register" && path !== '/home' && path !== '/ForgotPassword' && path !== "/Newpassword") {
+    if (path !== "/login" && path !== "/register" && path !== '/' && path !== '/ForgotPassword' && path !== "/Newpassword") {
       if (!token) {
         swal({
           icon: "info",
@@ -80,10 +80,10 @@ function App() {
     <div>
       <Navber rights={right} />
       <Switch>
-        <Route path="/home">
+        <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/login" exact>
+        <Route path="/login">
           <Login />
         </Route>
         <Route path="/register">
