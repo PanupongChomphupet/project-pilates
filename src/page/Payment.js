@@ -77,7 +77,7 @@ function Pay() {
                         icon: "info",
                         title: "กำลังตรวจสอบข้อมูล"
                     })
-                    history.push("/home")
+                    history.push("/")
                 }
             })
         }
