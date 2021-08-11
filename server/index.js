@@ -1082,7 +1082,12 @@ mongo.connect("mongodb://mongo:27017", { useUnifiedTopology: true }, (err, db) =
     app.post('/video', (req, res) => {
         const { id, level } = req.body
         dbcon.collection('course').findOne({ _id: ObjectId(id) }, { projection: { level: { $elemMatch: { level: level } } } }, (err, result) => {
-            res.json({ level: result.level[0] })
+            try {
+                res.json({ level: result.level[0]})
+            } catch (e) {
+                console.log(e);
+                res.json({ level: ""})
+            }
         })
     })
 
